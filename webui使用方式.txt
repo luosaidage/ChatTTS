@@ -1,0 +1,6 @@
+1、正常安装所有依赖
+2、下载模型到本地，执行 python download_model.py 会自动下载。
+(说明：这里有个坑，下载模型我这边用的是国内魔塔社区的，但是作者目前在这边少上传了一个文件：spk_stat.pt
+，我已经找到这个文件了，文件放在了ChatTTS/model/spk_stat.pt，运行代码后需要手动将这个文件放到“ChatTTS/model/pzc163/chatTTS”文件夹，这个问题我后期会解决。)
+3、启动webui python webui.py --local_path=ChatTTS/model/pzc163/chatTTS
+4、enjoy
